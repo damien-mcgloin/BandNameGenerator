@@ -1,0 +1,92 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+print("You walk down the beach. The sun beating down upon your shoulders. You find a path but it splits.")
+choice_1 = input("Do you go left or right? ")
+
+if choice_1.lower() == "left":
+    print("You walk down the path and are surrounded by trees. Eventually you come to a river. It's very hot and you want to dive in but the current looks strong")
+
+    choice_2 = input("Do you swim or walk? ")
+
+    if choice_2.lower() == "walk":
+      print("You walk until you find a clearing with three huts. Each hut has a different colored door")
+
+      choice_3 = input("Which do you choose, red, yellow or blue? ")
+
+      if choice_3.lower() == "red":
+        print("The door shuts behind you and you're trapped in a dark room... forever. Game over")
+      elif choice_3.lower() == "yellow":
+        print("You find more treasure than you can imagine. You're leaving this island rich. You win!!")
+        print('''
+             ___________
+            '._==_==_=_.'
+            .-\:      /-.
+           | (|:.     |) |
+            '-|:.     |-'
+              \::.    /
+               '::. .'
+                 ) (
+               _.' '._
+              `"""""""`
+          ''')
+      else:
+        print("As the door shuts behind you everything becomes blurry. You fall to the floor and wake up in your bed. You escaped the island but didn't get the treasure. Game over.")
+
+    else:
+      print("The current is too strong. It carries you far away, over a waterfall and onto the rocks below. Game Over")
+
+else:
+  print("A wild beast attacks you. Game Over")
+  print('''
+                               .cd$$$$$$$eecu=~=._
+                          zd$$$$$$$$$$$$$$'   z$b..  _,x,
+                       z????$$$$$$$$P",-==   dP""`$$$.  .;
+                    .e"..     `"?$Fu^'e$$$$$be.   )$$' 4r'$$nn,     _. -
+                  ud$$$P  zeeeu.   ld$$$$$$$$$$$$c`=._,$$  <"$$$$= '
+                z$$$$$$e ?$$"   "FE=e2R$$$$$$$$$$$$bu"h._..d. "`nMb`    _
+             .-J$$$$$$$$,?$$b,.,J",xc3$$$$$$$$$$$$$$$" Mh. "  'MMMMP- ~
+        ..ze$F R$$$$$$$$$bcccd$$"J(T-
+  "b".nMMP'b.   "",c$$$$$$$$P.MMMMMMMb.<       )!! >'dMMMMMMM  __
+   .HMMMM  "??$$$$$PF"uPF",, umnmnHMMMMMbx.... ''.n'MMMMMCund~    `~ ~ -
+  'M'HMMMh         .e$ee$$?7 MMMMMT"",MMMMMMMMMMMMM.MMMMMMMMM
+    MMMMMMMx -...e$$$P??,nMM "`,nndMMMMMMMMMMMMMMMMk`MMMMMMMP
+   H"MMMMMMMMhx???",nHMMP",nh MMMMMM?MP"xHMMMMMMMMMF-?TMMMM"
+     MMPTMMMMMMMMMMP"u- :n.`"%'MF.xnF.nMMMMMMMMMP".::::."Te
+    'M".MPTMMMMMP"zeEeP.MMMMM"..4MF,HMMMMMMMMMF'.::::::::`R.
+     " MF dMMMf z$$$$$ MMMF'xMMMr`HMMMMMMMMM".:::::::.::...?_
+       T  M P  $$$$$$%dMF'dMMMM"xk'MPJMMMMP ::'.'';i!!!!'`^.xhMmx
+         'M   4$$$$$P.P,HMMMMM,HMMh TMMMMM> :!!!!!!!'`.xnMMMMMMMMMn
+              J$$$$$ ",MMMMMM,MMMM'h TMMMML'!;!!!`.nHMMMMMMMMMMMMMMMn
+              $$$$$P HMMMMMM,MMMM MMM."MMMM \!i`.HMMMMMMMMMMMMMMMMMMMMr
+              $$$$$"dMMMMMMMMMMMfdMMMM.`MMMh   xMMMMMMMMMMMMMMMMMMMMMMM
+             4$$$$$ MMMMMMMMMMMMMMMMMMMx`MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM'
+            ,4$$$$$.MMMMMMMMMMMMMMMMMMMMh TMMMMMMMMMMMMMMMMMMMMMMMMMMMf
+           ; J$$$$F;MMMMMMMMMMMMMMMMMMMMMM."MMMMMMMMMMMMMMMMMMMMMMP""
+         .db $$$$$ MMMMMMMMMMMMMMMMMMMMMMMMh."MMMMMMMMMMMMMMPF"
+        , d$b$$$$$ MMMMMMMMMMMMMMMMMMMMMMMMMM u"?f""?=
+       .  $$$$$$$$ MMMMMMMMMMMMMMMMMMMMMMMMMfJ$b
+      z$  d$$$$$$$ MMMMMMMMMMMMMMMMMMMMMMMMM P" `
+     e$$h ?$$$$$$$ MMMMMMMMMMMMMMMMMMMMMMMMf^  zF`.
+     ''')
